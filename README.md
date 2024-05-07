@@ -13,11 +13,13 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 ## My Proof
 
-Because $G_1$ and $G_2$ are both completely connected and have the same number of nodes: $V_1$ and $V_2$. All that needs to be done is to map $V_1 \to V_2$ and then connect all vertices. This is done by mapping each node in $V_1$ to a unique node in $V_2$ this is what satisfies the one-to-one part of a bijection. Each node in $V_2$ should have a preimage in $V_1$ whick satisfies the onto part of a bijection. Since the bijection is both onto and one-to-one, $G_1$ and $G_2$ must be isomorphic. We must also map the edges from $G_1 \to G_2$. Each edge in $E_1$ must hava a function such that there is a corresponding edge in $E_2$ this satisfies $(u,v)\in E_1$ iff $(f(u),f(v)) \in E_2$. We check this by ensuring that every relationship between two nodes in $G_1 $is also present in $G_2$
-
-$\therefore$ two fully connected graphs with the name number of nodes are isomorphic.
 
 
+A bijection occurs when every node in $G_1$ can be mapped to a comparable unique node in $G_2$. Because both graphs have the same number of nodes, there must be a function $f$ such that each unique node in $G_1$ can be mapped to a corresponding unique node in $G_2$.
+
+Because $G_1$ is fully connected, there must be vertices $V_1{a}$ and $V_1{b}$ in which an edge connects them. Using this logic, there must be a function $f$ such that can map the afformentioned edge to the corresponding nodes in $G_2$. This is made possible because of the bijection of the nodes from $G_1$ to $G_2$ and the function that maps $G_1$ to $G_2$.
+
+$\therefore$ the function works to map every node and edge from $G_1$ to $G_2$ while preserving its relations. We can conclude that every fully connected graph with the same number of nodes is isomorphic because of the mapping function that we can use to preserve the relations from $G_1$ that satisfy $f: V_1 \rightarrow V_2$ such that $(u,v) \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 
 
